@@ -46,9 +46,9 @@ def getData(url):
 
 
 def main():
-    url = 'http://api.aladhan.com/v1/calendar?latitude=37.169375&longitude=10.033648&method=3&year=2021&annual=true'
+    url = 'http://api.aladhan.com/v1/calendar?latitude=37.169375&longitude=10.033648&method=3&year=2022&annual=true'
     getData(url)
-    clearData('prays.json', '2021.json')
+    clearData('prays.json', '2022.json')
     
     
    
